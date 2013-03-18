@@ -7,7 +7,7 @@ function Inputprompt() {
         for (var num = 0; millioncount > .000001 ; num++) {
             millioncount /= 2;
         }
-        document.write('<h2>The number of times to divide the number ' + userinput + ' by 2 to get a value less than one millionth is ' + num + '</h2>');//Gives answer
+        document.write('<h2>The number of times to divide the number ' + userinput + ' by 2 to get a value less than one millionth is ' + num + '</h2>');
 
         var n= userinput;
         document.write('<p>');
